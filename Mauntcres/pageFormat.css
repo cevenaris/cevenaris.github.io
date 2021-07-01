@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* container for the navigation bar */
+.topNav {
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+/* Navbar links */
+.topNav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Changing link appearance on hover */
+.topNav a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Each content column */
+.column {
+    float: left;
+}
+
+.column.left {
+    width: 15%;
+}
+
+.column.left img {
+    width: 50px;
+    height: 50px;
+}
+
+.column.main {
+    width: 85%;
+}
+
+/* What to do after all of the columns(next row) */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Makes columns into rows on smaller screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
