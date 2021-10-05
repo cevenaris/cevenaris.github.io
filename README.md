@@ -1,2 +1,3 @@
 # cevenaris.github.io
-Website for the game I intend to make.
+
+My personal website. It contains an overview of the various projects that I've made, with demos for those that can be compiled to html5. 
